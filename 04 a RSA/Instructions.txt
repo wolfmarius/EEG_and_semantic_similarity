@@ -1,0 +1,9 @@
+D_ngd_wv.mat    --> RDM for NGD in the word2vec-decoding schema
+D_wv.mat        --> RDM for word2vec
+unique_words_wv --> all unique search terms, according to the word2vec-decoding schema
+
+
+RSA_preprocess.m: creates the semantic RDM for each person. Has the RDM over all 225 unique search terms (D_ngd_wv or D_wv) as input
+       -->ac_D.m: used in RSA_preprocess
+ 
+RSA_permtest: RSA between the EEG-data and the semantic RDMs and the cluster-based permutation test
