@@ -1,0 +1,3 @@
+myRSA_sliding_no_meaning.m: takes in the data of all subjects and gives out the temporal generalization matrices for each subject for the meaningless trials
+                            --> ext_meaningless.m 	   	       --> extracts the meaningless trials. Is excuted in myRSA_sliding_no_menaing.m
+                            --> vectorized_sliding_after_no_meaning.m  --> vectorizes and correlates the time bins of meaningless trials. Is excuted in myRSA_sliding_no_menaing.m

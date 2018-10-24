@@ -1,0 +1,12 @@
+1. create_table.m: reads in the data of all subjects and creates a table of stimuli description for each subject (see the Result folder for the tables)
+                    --> ext_meaningful_good.m 	    --> extracts the meaningful trials. Is executed in create_table.m
+
+2. myRSA_sliding_table_already.m: takes in the data and table of all subjects and gives out the temporal generalization matrices for each subject
+                                   --> vectorized_sliding_after.m  --> vectorizes and correlates the time bins. Executed in myRSA_sliding_table_already
+
+
+
+
+The folder "ext_meaningless" contains the files that construct the temporal generalization matrices for the menaingless trials
+
+myRSA_sliding_plot.m is not used in the thesis. It plots the temporal generalization matrices
